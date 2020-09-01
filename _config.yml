@@ -16,8 +16,7 @@ html:
   baseurl: https://jimit105.github.io/medium-articles
   use_repository_button : true
   use_issues_button: true
-  extra_navbar: Subscribe to <a href="https://jimit105.github.io/medium-articles/rss.xml">RSS Feed</a>
-  extra_footer: Maintained by <a href="https://www.linkedin.com/in/jimit105/" _target="blank">Jimit Dholakia</a>
+  extra_navbar: Subscribe to <a href="https://jimit105.github.io/medium-articles/rss.xml">RSS Feed</a><br/>Maintained by <a href="https://www.linkedin.com/in/jimit105/" _target="blank">Jimit Dholakia</a>
     
 sphinx:
   extra_extensions: ['sphinx_sitemap', 'yasfb']
