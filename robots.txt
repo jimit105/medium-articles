@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://jimit105.github.io/https://jimit105.github.io/medium-articles/sitemap.xml
+Sitemap: https://jimit105.github.io/medium-articles/sitemap.xml
