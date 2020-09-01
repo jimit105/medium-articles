@@ -1,3 +1,6 @@
+jupyter-book
+sphinx-sitemap
+yasfb
 requests
 pandas
 Flask
