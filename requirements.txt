@@ -1,0 +1,6 @@
+requests
+pandas
+Flask
+flask-restplus
+torch==1.6.0+cpu
+torchvision==0.7.0+cpu

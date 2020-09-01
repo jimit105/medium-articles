@@ -1,0 +1,29 @@
+title: Medium Articles by Jimit Dholakia
+author: Jimit Dholakia
+exclude_patterns: ['README.md']
+
+launch_buttons:
+  binderhub_url: https://mybinder.org
+  colab_url: https://colab.research.google.com
+  thebe: true
+
+repository:
+  url: https://github.com/jimit105/medium-articles
+    
+html:
+  google_analytics_id: UA-136790987-1
+  home_page_in_navbar: true
+  baseurl: https://jimit105.github.io/medium-articles
+  use_repository_button : true
+  use_issues_button: true
+  favicon: favicon_py.png
+  extra_navbar: Subscribe to <a href="https://jimit105.github.io/medium-articles/rss.xml">RSS Feed</a>
+  extra_footer: Maintained by <a href="https://www.linkedin.com/in/jimit105/" _target="blank">Jimit Dholakia</a>
+    
+sphinx:
+  extra_extensions: ['sphinx_sitemap', 'yasfb']
+  config:
+    html_extra_path: ['robots.txt']
+    feed_base_url: 'https://jimit105.github.io/medium-articles'
+    feed_author: 'Jimit Dholakia'
+    project: 'Medium Articles - Jimit Dholakia'
