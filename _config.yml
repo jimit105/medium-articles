@@ -16,7 +16,6 @@ html:
   baseurl: https://jimit105.github.io/medium-articles
   use_repository_button : true
   use_issues_button: true
-  favicon: favicon_py.png
   extra_navbar: Subscribe to <a href="https://jimit105.github.io/medium-articles/rss.xml">RSS Feed</a>
   extra_footer: Maintained by <a href="https://www.linkedin.com/in/jimit105/" _target="blank">Jimit Dholakia</a>
     
