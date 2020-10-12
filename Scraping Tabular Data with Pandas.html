@@ -1,0 +1,936 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scraping Tabular Data with Pandas &#8212; Medium Articles by Jimit Dholakia</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://jimit105.github.io/medium-articles/Scraping Tabular Data with Pandas.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="5 Ways to Merge Dictionaries in Python" href="5%20Ways%20to%20Merge%20Dictionaries%20in%20Python.html" />
+    <link rel="prev" title="Medium Articles by Jimit Dholakia" href="index.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+<!-- Opengraph tags -->
+<meta property="og:url"         content="https://jimit105.github.io/medium-articles/Scraping Tabular Data with Pandas.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="Scraping Tabular Data with Pandas" />
+<meta property="og:description" content="Scraping Tabular Data with Pandas  Medium Article Link: https://medium.com/p/10cf2a133cbf  import pandas as pd url = &#39;https://en.wikipedia.org/wiki/The_World%27" />
+
+
+<meta name="twitter:card" content="summary" />
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Medium Articles by Jimit Dholakia</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   Medium Articles by Jimit Dholakia
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Scraping Tabular Data with Pandas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5%20Ways%20to%20Merge%20Dictionaries%20in%20Python.html">
+   5 Ways to Merge Dictionaries in Python
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Building%20Python%20APIs%20with%20Flask%2C%20Flask-RESTPlus%20and%20Swagger%20UI.html">
+   Building Python APIs with Flask, Flask-RESTPlus and Swagger UI
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="GitHub%20URL%20Shortener.html">
+   GitHub URL Shortener
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Creating%20RESTful%20APIs%20using%20Flask%20and%20Python.html">
+   Creating RESTful APIs using Flask and Python
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="7%20PyTorch%20functions%20for%20your%20next%20Machine%20Learning%20project.html">
+   7 PyTorch functions for your next Machine Learning project
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Subscribe to <a href="https://jimit105.github.io/medium-articles/rss.xml">RSS Feed</a><br/>Maintained by <a href="https://www.linkedin.com/in/jimit105/" _target="blank">Jimit Dholakia</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/Scraping Tabular Data with Pandas.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/jimit105/medium-articles"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/jimit105/medium-articles/issues/new?title=Issue%20on%20page%20%2FScraping Tabular Data with Pandas.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/jimit105/medium-articles/master?urlpath=tree/Scraping Tabular Data with Pandas.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        <a class="colab-button" href="https://colab.research.google.com/github/jimit105/medium-articles/blob/master/Scraping Tabular Data with Pandas.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+                title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
+                    src="_static/images/logo_colab.png"
+                    alt="Interact on Colab">Colab</button></a>
+        
+        <button type="button" class="btn btn-secondary topbarbtn"
+            onclick="initThebeSBT()" title="Launch Thebe" data-toggle="tooltip" data-placement="left"><i
+                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#medium-article-link-https-medium-com-p-10cf2a133cbf">
+   Medium Article Link: https://medium.com/p/10cf2a133cbf
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#set-a-particular-column-as-index">
+     Set a particular column as index
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#return-tables-containing-a-string-or-regex">
+     Return tables containing a string or regex
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#specify-strings-to-recognize-as-na-nan">
+     Specify strings to recognize as NA/NaN
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#without-specifying-na-values">
+       without specifying
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         na_values
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#after-specifying-na-values">
+       after specifying
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         na_values
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#other-parameters">
+     Other parameters
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="scraping-tabular-data-with-pandas">
+<h1>Scraping Tabular Data with Pandas<a class="headerlink" href="#scraping-tabular-data-with-pandas" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="medium-article-link-https-medium-com-p-10cf2a133cbf">
+<h2>Medium Article Link: <a class="reference external" href="https://medium.com/p/10cf2a133cbf">https://medium.com/p/10cf2a133cbf</a><a class="headerlink" href="#medium-article-link-https-medium-com-p-10cf2a133cbf" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://en.wikipedia.org/wiki/The_World</span><span class="si">%27s</span><span class="s1">_Billionaires&#39;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_list</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># pd.read_html returns list</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">df_list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>list
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Total number of tables found</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">df_list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>32
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>No.</th>
+      <th>Name</th>
+      <th>Net worth (USD)</th>
+      <th>Age</th>
+      <th>Nationality</th>
+      <th>Source(s) of wealth</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Jeff Bezos</td>
+      <td>$113 billion</td>
+      <td>56</td>
+      <td>United States</td>
+      <td>Amazon</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>Bill Gates</td>
+      <td>$98 billion</td>
+      <td>64</td>
+      <td>United States</td>
+      <td>Microsoft</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>Bernard Arnault and family</td>
+      <td>$76 billion</td>
+      <td>71</td>
+      <td>France</td>
+      <td>LVMH</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>Warren Buffett</td>
+      <td>$67.5 billion</td>
+      <td>89</td>
+      <td>United States</td>
+      <td>Berkshire Hathaway</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>Larry Ellison</td>
+      <td>$59 billion</td>
+      <td>75</td>
+      <td>United States</td>
+      <td>Oracle Corporation</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>Amancio Ortega</td>
+      <td>$55.1 billion</td>
+      <td>84</td>
+      <td>Spain</td>
+      <td>Inditex, Zara</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>Mark Zuckerberg</td>
+      <td>$54.7 billion</td>
+      <td>35</td>
+      <td>United States</td>
+      <td>Facebook</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>Jim Walton</td>
+      <td>$54.6 billion</td>
+      <td>71</td>
+      <td>United States</td>
+      <td>Walmart</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>Alice Walton</td>
+      <td>$54.4 billion</td>
+      <td>70</td>
+      <td>United States</td>
+      <td>Walmart</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>S. Robson Walton</td>
+      <td>$54.1 billion</td>
+      <td>77</td>
+      <td>United States</td>
+      <td>Walmart</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="section" id="set-a-particular-column-as-index">
+<h3>Set a particular column as index<a class="headerlink" href="#set-a-particular-column-as-index" title="Permalink to this headline">¶</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">2</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>No.</th>
+      <th>Net worth (USD)</th>
+      <th>Age</th>
+      <th>Nationality</th>
+      <th>Source(s) of wealth</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Jeff Bezos</th>
+      <td>1</td>
+      <td>$113 billion</td>
+      <td>56</td>
+      <td>United States</td>
+      <td>Amazon</td>
+    </tr>
+    <tr>
+      <th>Bill Gates</th>
+      <td>2</td>
+      <td>$98 billion</td>
+      <td>64</td>
+      <td>United States</td>
+      <td>Microsoft</td>
+    </tr>
+    <tr>
+      <th>Bernard Arnault and family</th>
+      <td>3</td>
+      <td>$76 billion</td>
+      <td>71</td>
+      <td>France</td>
+      <td>LVMH</td>
+    </tr>
+    <tr>
+      <th>Warren Buffett</th>
+      <td>4</td>
+      <td>$67.5 billion</td>
+      <td>89</td>
+      <td>United States</td>
+      <td>Berkshire Hathaway</td>
+    </tr>
+    <tr>
+      <th>Larry Ellison</th>
+      <td>5</td>
+      <td>$59 billion</td>
+      <td>75</td>
+      <td>United States</td>
+      <td>Oracle Corporation</td>
+    </tr>
+    <tr>
+      <th>Amancio Ortega</th>
+      <td>6</td>
+      <td>$55.1 billion</td>
+      <td>84</td>
+      <td>Spain</td>
+      <td>Inditex, Zara</td>
+    </tr>
+    <tr>
+      <th>Mark Zuckerberg</th>
+      <td>7</td>
+      <td>$54.7 billion</td>
+      <td>35</td>
+      <td>United States</td>
+      <td>Facebook</td>
+    </tr>
+    <tr>
+      <th>Jim Walton</th>
+      <td>8</td>
+      <td>$54.6 billion</td>
+      <td>71</td>
+      <td>United States</td>
+      <td>Walmart</td>
+    </tr>
+    <tr>
+      <th>Alice Walton</th>
+      <td>9</td>
+      <td>$54.4 billion</td>
+      <td>70</td>
+      <td>United States</td>
+      <td>Walmart</td>
+    </tr>
+    <tr>
+      <th>S. Robson Walton</th>
+      <td>10</td>
+      <td>$54.1 billion</td>
+      <td>77</td>
+      <td>United States</td>
+      <td>Walmart</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+<div class="section" id="return-tables-containing-a-string-or-regex">
+<h3>Return tables containing a string or regex<a class="headerlink" href="#return-tables-containing-a-string-or-regex" title="Permalink to this headline">¶</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">match</span><span class="o">=</span><span class="s1">&#39;Number and combined net worth of billionaires by year&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Number of billionaires</th>
+      <th>Group's combined net worth</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2020</td>
+      <td>2095</td>
+      <td>$8.0 trillion</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2019</td>
+      <td>2153</td>
+      <td>$8.7 trillion</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2018</td>
+      <td>2208</td>
+      <td>$9.1 trillion</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2017</td>
+      <td>2043</td>
+      <td>$7.7 trillion</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2016</td>
+      <td>1810</td>
+      <td>$6.5 trillion</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+<div class="section" id="specify-strings-to-recognize-as-na-nan">
+<h3>Specify strings to recognize as NA/NaN<a class="headerlink" href="#specify-strings-to-recognize-as-na-nan" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="without-specifying-na-values">
+<h4>without specifying <code class="docutils literal notranslate"><span class="pre">na_values</span></code><a class="headerlink" href="#without-specifying-na-values" title="Permalink to this headline">¶</a></h4>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="n">url</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>9</th>
+      <td>Net worth (1st)</td>
+      <td>US$113 billion</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Number of billionaires</td>
+      <td>2095</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Total list net worth value</td>
+      <td>US$8 trillion</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>New members to the list</td>
+      <td>178</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Forbes: The World's Billionaires website</td>
+      <td>Forbes: The World's Billionaires website</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+<div class="section" id="after-specifying-na-values">
+<h4>after specifying <code class="docutils literal notranslate"><span class="pre">na_values</span></code><a class="headerlink" href="#after-specifying-na-values" title="Permalink to this headline">¶</a></h4>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="n">url</span><span class="p">,</span><span class="n">na_values</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Forbes: The World&#39;s Billionaires website&quot;</span><span class="p">])[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>9</th>
+      <td>Net worth (1st)</td>
+      <td>US$113 billion</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Number of billionaires</td>
+      <td>2095</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Total list net worth value</td>
+      <td>US$8 trillion</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>New members to the list</td>
+      <td>178</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+</div>
+<div class="section" id="other-parameters">
+<h3>Other parameters<a class="headerlink" href="#other-parameters" title="Permalink to this headline">¶</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Publisher</th>
+      <th>Whale Media InvestmentsForbes family</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Publication</td>
+      <td>Forbes</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>First published</td>
+      <td>March 1987[1]</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Latest publication</td>
+      <td>April 7, 2020</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Current list details (2020)[2]</td>
+      <td>Current list details (2020)[2]</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Wealthiest</td>
+      <td>Jeff Bezos</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "jimit105/medium-articles",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">Medium Articles by Jimit Dholakia</a>
+    <a class='right-next' id="next-link" href="5%20Ways%20to%20Merge%20Dictionaries%20in%20Python.html" title="next page">5 Ways to Merge Dictionaries in Python</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Jimit Dholakia<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+    <!-- Google Analytics -->
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-136790987-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+    
+  </body>
+</html>
