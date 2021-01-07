@@ -14,6 +14,7 @@ repository:
   url: https://github.com/jimit105/medium-articles
     
 html:
+  favicon: favicon_py.png
   google_analytics_id: UA-136790987-1
   home_page_in_navbar: true
   baseurl: https://jimit105.github.io/medium-articles
