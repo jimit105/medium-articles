@@ -2,6 +2,9 @@ title: Medium Articles by Jimit Dholakia
 author: Jimit Dholakia
 exclude_patterns: ['README.md']
 
+execute:
+  execute_notebooks: off
+
 launch_buttons:
   binderhub_url: https://mybinder.org
   colab_url: https://colab.research.google.com
