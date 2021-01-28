@@ -66,7 +66,7 @@
 <meta property="og:url"         content="https://jimit105.github.io/medium-articles/Dead Letter Queue (DLQ) in Kafka.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="Dead Letter Queue (DLQ) in Kafka" />
-<meta property="og:description" content="Dead Letter Queue (DLQ) in Kafka  Medium Article Link: https://medium.com/p/29418e0ec6cf  Installation  !pip install kafka-pythonMedium Article Link: https://me" />
+<meta property="og:description" content="Dead Letter Queue (DLQ) in Kafka  Medium Article Link: https://medium.com/p/29418e0ec6cf  Installation  !pip install kafka-python  Implementation  from kafka im" />
 
 
 <meta name="twitter:card" content="summary" />
@@ -139,11 +139,6 @@
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Dead Letter Queue (DLQ) in Kafka
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="#implementation">
-   Implementation
   </a>
  </li>
 </ul>
@@ -257,34 +252,25 @@
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Dead Letter Queue (DLQ) in Kafka
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#medium-article-link-https-medium-com-p-29418e0ec6cf">
+   Medium Article Link: https://medium.com/p/29418e0ec6cf
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#medium-article-link-https-medium-com-p-29418e0ec6cf">
-     Medium Article Link: https://medium.com/p/29418e0ec6cf
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#installation">
-     Installation
-    </a>
-   </li>
-  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#installation">
+   Installation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#implementation">
    Implementation
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#reference">
-     Reference
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#reference">
+   Reference
+  </a>
  </li>
 </ul>
 
@@ -312,9 +298,8 @@
 </div>
 </div>
 </div>
-</div>
 <div class="section" id="implementation">
-<h1>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h1>
+<h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">kafka</span> <span class="kn">import</span> <span class="n">KafkaProducer</span><span class="p">,</span> <span class="n">KafkaConsumer</span>
@@ -378,6 +363,7 @@ Partition: 0 	Offset: 543	Value: test
 Value test not in JSON format
 Message sent to DLQ Topic
 </pre></div>
+</div>
 </div>
 </div>
 </div>

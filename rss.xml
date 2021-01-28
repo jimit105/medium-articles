@@ -772,9 +772,8 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
 &lt;div class="section" id="implementation"&gt;
- 
+&lt;h2&gt;Implementation&lt;/h2&gt;
 &lt;div class="cell docutils container"&gt;
 &lt;div class="cell_input docutils container"&gt;
 &lt;div class="highlight-ipython3 notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;kafka&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;KafkaProducer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;KafkaConsumer&lt;/span&gt;
@@ -838,6 +837,7 @@ Partition: 0 	Offset: 543	Value: test
 Value test not in JSON format
 Message sent to DLQ Topic
 &lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
