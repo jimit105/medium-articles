@@ -194,7 +194,7 @@
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 07 Jan 2021 00:00:00 </pubDate></item><item><title>7 PyTorch functions for your next Machine Learning project</title><link>https://jimit105.github.io/medium-articles/7 PyTorch functions for your next Machine Learning project.html</link><description>&lt;div class="section" id="pytorch-functions-for-your-next-machine-learning-project"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>7 PyTorch functions for your next Machine Learning project</title><link>https://jimit105.github.io/medium-articles/7 PyTorch functions for your next Machine Learning project.html</link><description>&lt;div class="section" id="pytorch-functions-for-your-next-machine-learning-project"&gt;
  
 &lt;div class="section" id="medium-article-link-https-medium-com-p-356de5f31a1e"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="https://medium.com/p/356de5f31a1e"&gt;https://medium.com/p/356de5f31a1e&lt;/a&gt;&lt;/h2&gt;
@@ -475,7 +475,7 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 07 Jan 2021 00:00:00 </pubDate></item><item><title>Building Python APIs with Flask, Flask-RESTPlus and Swagger UI</title><link>https://jimit105.github.io/medium-articles/Building Python APIs with Flask, Flask-RESTPlus and Swagger UI.html</link><description>&lt;div class="section" id="building-python-apis-with-flask-flask-restplus-and-swagger-ui"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>Building Python APIs with Flask, Flask-RESTPlus and Swagger UI</title><link>https://jimit105.github.io/medium-articles/Building Python APIs with Flask, Flask-RESTPlus and Swagger UI.html</link><description>&lt;div class="section" id="building-python-apis-with-flask-flask-restplus-and-swagger-ui"&gt;
  
 &lt;div class="section" id="medium-article-link-https-medium-com-p-7461b3a9a2c8"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="https://medium.com/p/7461b3a9a2c8"&gt;https://medium.com/p/7461b3a9a2c8&lt;/a&gt;&lt;/h2&gt;
@@ -597,7 +597,7 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 07 Jan 2021 00:00:00 </pubDate></item><item><title>Creating RESTful APIs using Flask and Python</title><link>https://jimit105.github.io/medium-articles/Creating RESTful APIs using Flask and Python.html</link><description>&lt;div class="section" id="creating-restful-apis-using-flask-and-python"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>Creating RESTful APIs using Flask and Python</title><link>https://jimit105.github.io/medium-articles/Creating RESTful APIs using Flask and Python.html</link><description>&lt;div class="section" id="creating-restful-apis-using-flask-and-python"&gt;
  
 &lt;div class="section" id="medium-article-link-https-medium-com-p-655bad51b24"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="https://medium.com/p/655bad51b24"&gt;https://medium.com/p/655bad51b24&lt;/a&gt;&lt;/h2&gt;
@@ -757,7 +757,108 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 07 Jan 2021 00:00:00 </pubDate></item><item><title>GitHub URL Shortener</title><link>https://jimit105.github.io/medium-articles/GitHub URL Shortener.html</link><description>&lt;div class="section" id="github-url-shortener"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>Dead Letter Queue (DLQ) in Kafka</title><link>https://jimit105.github.io/medium-articles/Dead Letter Queue (DLQ) in Kafka.html</link><description>&lt;div class="section" id="dead-letter-queue-dlq-in-kafka"&gt;
+ 
+&lt;div class="section" id="medium-article-link-https-medium-com-p-29418e0ec6cf"&gt;
+&lt;h2&gt;Medium Article Link: https://medium.com/p/29418e0ec6cf&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="installation"&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="implementation"&gt;
+ 
+&lt;div class="cell docutils container"&gt;
+&lt;div class="cell_input docutils container"&gt;
+&lt;div class="highlight-ipython3 notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;kafka&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;KafkaProducer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;KafkaConsumer&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
+
+&lt;span class="n"&gt;bootstrap_servers&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'localhost:9092'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;primary_topic&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'primary-topic-name'&lt;/span&gt;
+&lt;span class="n"&gt;dlq_topic&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'dlq-topic-name'&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell docutils container"&gt;
+&lt;div class="cell_input docutils container"&gt;
+&lt;div class="highlight-ipython3 notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;dlq_producer&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;KafkaProducer&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="n"&gt;bootstrap_servers&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;bootstrap_servers&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="n"&gt;value_serializer&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;encode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'utf-8'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+    &lt;span class="n"&gt;acks&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'all'&lt;/span&gt;
+&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell docutils container"&gt;
+&lt;div class="cell_input docutils container"&gt;
+&lt;div class="highlight-ipython3 notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="n"&gt;consumer&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;KafkaConsumer&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="n"&gt;primary_topic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="n"&gt;bootstrap_servers&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;bootstrap_servers&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="n"&gt;auto_offset_reset&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'latest'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="n"&gt;enable_auto_commit&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="n"&gt;value_deserializer&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;decode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'utf-8'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell docutils container"&gt;
+&lt;div class="cell_input docutils container"&gt;
+&lt;div class="highlight-ipython3 notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;msg&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;consumer&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;Received:&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;Partition: &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;partition&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s1"&gt; &lt;/span&gt;&lt;span class="se"&gt;\t&lt;/span&gt;&lt;span class="s1"&gt;Offset: &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;offset&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="se"&gt;\t&lt;/span&gt;&lt;span class="s1"&gt;Value: &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    
+    &lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loads&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Data Received:'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            
+    &lt;span class="k"&gt;except&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s1"&gt;'Value &lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s1"&gt; not in JSON format'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;dlq_producer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;send&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dlq_topic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Message sent to DLQ Topic'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell_output docutils container"&gt;
+&lt;div class="output stream highlight-myst-ansi notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;Received:
+Partition: 0 	Offset: 542	Value: {"test":"1"}
+Data Received: {'test': '1'}
+
+Received:
+Partition: 0 	Offset: 543	Value: test
+Value test not in JSON format
+Message sent to DLQ Topic
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reference"&gt;
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://kafka-python.readthedocs.io/en/master/install.html"&gt;https://kafka-python.readthedocs.io/en/master/install.html&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;script type="text/x-thebe-config"&gt;
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "jimit105/medium-articles",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    &lt;/script&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>GitHub URL Shortener</title><link>https://jimit105.github.io/medium-articles/GitHub URL Shortener.html</link><description>&lt;div class="section" id="github-url-shortener"&gt;
  
 &lt;div class="section" id="medium-article-link-http-medium-com-p-f1e0aeaf83b6"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="http://medium.com/p/f1e0aeaf83b6"&gt;http://medium.com/p/f1e0aeaf83b6&lt;/a&gt;&lt;/h2&gt;
@@ -830,7 +931,7 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 07 Jan 2021 00:00:00 </pubDate></item><item><title>Introduction to Logging in Python</title><link>https://jimit105.github.io/medium-articles/Introduction to Logging in Python.html</link><description>&lt;div class="section" id="introduction-to-logging-in-python"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>Introduction to Logging in Python</title><link>https://jimit105.github.io/medium-articles/Introduction to Logging in Python.html</link><description>&lt;div class="section" id="introduction-to-logging-in-python"&gt;
  
 &lt;div class="section" id="medium-link-https-medium-com-p-a1415d0b8141"&gt;
 &lt;h2&gt;Medium Link: &lt;a class="reference external" href="https://medium.com/p/a1415d0b8141"&gt;https://medium.com/p/a1415d0b8141&lt;/a&gt;&lt;/h2&gt;
@@ -1015,7 +1116,7 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 07 Jan 2021 00:00:00 </pubDate></item><item><title>Scraping Tabular Data with Pandas</title><link>https://jimit105.github.io/medium-articles/Scraping Tabular Data with Pandas.html</link><description>&lt;div class="section" id="scraping-tabular-data-with-pandas"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>Scraping Tabular Data with Pandas</title><link>https://jimit105.github.io/medium-articles/Scraping Tabular Data with Pandas.html</link><description>&lt;div class="section" id="scraping-tabular-data-with-pandas"&gt;
  
 &lt;div class="section" id="medium-article-link-https-medium-com-p-10cf2a133cbf"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="https://medium.com/p/10cf2a133cbf"&gt;https://medium.com/p/10cf2a133cbf&lt;/a&gt;&lt;/h2&gt;
@@ -1594,4 +1695,4 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 07 Jan 2021 00:00:00 </pubDate></item></channel></rss>
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item></channel></rss>

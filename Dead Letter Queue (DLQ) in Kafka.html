@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GitHub URL Shortener &#8212; Medium Articles by Jimit Dholakia</title>
+    <title>Dead Letter Queue (DLQ) in Kafka &#8212; Medium Articles by Jimit Dholakia</title>
     
   <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -52,22 +52,21 @@
         const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://jimit105.github.io/medium-articles/GitHub URL Shortener.html" />
+    <link rel="canonical" href="https://jimit105.github.io/medium-articles/Dead Letter Queue (DLQ) in Kafka.html" />
     <link rel="shortcut icon" href="_static/favicon_py.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Scraping Tabular Data with Pandas" href="Scraping%20Tabular%20Data%20with%20Pandas.html" />
-    <link rel="prev" title="Introduction to Logging in Python" href="Introduction%20to%20Logging%20in%20Python.html" />
+    <link rel="prev" title="Building Python APIs with Flask, Flask-RESTPlus and Swagger UI" href="Building%20Python%20APIs%20with%20Flask%2C%20Flask-RESTPlus%20and%20Swagger%20UI.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
 
 
 <!-- Opengraph tags -->
-<meta property="og:url"         content="https://jimit105.github.io/medium-articles/GitHub URL Shortener.html" />
+<meta property="og:url"         content="https://jimit105.github.io/medium-articles/Dead Letter Queue (DLQ) in Kafka.html" />
 <meta property="og:type"        content="article" />
-<meta property="og:title"       content="GitHub URL Shortener" />
-<meta property="og:description" content="GitHub URL Shortener  Medium Article Link: http://medium.com/p/f1e0aeaf83b6  Shorten URL using curl  To create shortened URL  curl -i https://git.io -F &#34;url=GIT" />
+<meta property="og:title"       content="Dead Letter Queue (DLQ) in Kafka" />
+<meta property="og:description" content="Dead Letter Queue (DLQ) in Kafka  Medium Article Link: https://medium.com/p/29418e0ec6cf  InstallationMedium Article Link: https://medium.com/p/29418e0ec6cfInst" />
 
 
 <meta name="twitter:card" content="summary" />
@@ -107,8 +106,8 @@
    Introduction to Logging in Python
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="GitHub%20URL%20Shortener.html">
    GitHub URL Shortener
   </a>
  </li>
@@ -137,13 +136,13 @@
    Building Python APIs with Flask, Flask-RESTPlus and Swagger UI
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Dead%20Letter%20Queue%20%28DLQ%29%20in%C2%A0Kafka.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Dead Letter Queue (DLQ) in Kafka
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Dead%20Letter%20Queue%20%28DLQ%29%20in%C2%A0Kafka.html#implementation">
+  <a class="reference internal" href="#implementation">
    Implementation
   </a>
  </li>
@@ -187,7 +186,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/GitHub URL Shortener.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="_sources/Dead Letter Queue (DLQ) in Kafka.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -207,7 +206,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/jimit105/medium-articles/issues/new?title=Issue%20on%20page%20%2FGitHub URL Shortener.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/jimit105/medium-articles/issues/new?title=Issue%20on%20page%20%2FDead Letter Queue (DLQ) in Kafka.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -228,7 +227,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/jimit105/medium-articles/master?urlpath=tree/GitHub URL Shortener.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/jimit105/medium-articles/master?urlpath=tree/Dead Letter Queue (DLQ) in Kafka.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="_static/images/logo_binder.svg"
@@ -236,7 +235,7 @@
         
         
         
-        <a class="colab-button" href="https://colab.research.google.com/github/jimit105/medium-articles/blob/master/GitHub URL Shortener.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+        <a class="colab-button" href="https://colab.research.google.com/github/jimit105/medium-articles/blob/master/Dead Letter Queue (DLQ) in Kafka.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
                 title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
                     src="_static/images/logo_colab.png"
                     alt="Interact on Colab">Colab</button></a>
@@ -258,46 +257,31 @@
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#medium-article-link-http-medium-com-p-f1e0aeaf83b6">
-   Medium Article Link: http://medium.com/p/f1e0aeaf83b6
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#shorten-url-using-curl">
-   Shorten URL using curl
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Dead Letter Queue (DLQ) in Kafka
   </a>
   <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#to-create-shortened-url">
-     To create shortened URL
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#medium-article-link-https-medium-com-p-29418e0ec6cf">
+     Medium Article Link: https://medium.com/p/29418e0ec6cf
     </a>
    </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#to-create-shortened-url-with-custom-text">
-     To create shortened URL with custom text
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#to-retrieve-full-url">
-     To retrieve full URL
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#installation">
+     Installation
     </a>
    </li>
   </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#shorten-url-using-python">
-   Shorten URL using Python
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#implementation">
+   Implementation
   </a>
   <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
-     To create shortened URL
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
-     To retrieve full URL
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#reference">
+     Reference
     </a>
    </li>
   </ul>
@@ -313,58 +297,86 @@
         
               <div>
                 
-  <div class="section" id="github-url-shortener">
-<h1>GitHub URL Shortener<a class="headerlink" href="#github-url-shortener" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="medium-article-link-http-medium-com-p-f1e0aeaf83b6">
-<h2>Medium Article Link: <a class="reference external" href="http://medium.com/p/f1e0aeaf83b6">http://medium.com/p/f1e0aeaf83b6</a><a class="headerlink" href="#medium-article-link-http-medium-com-p-f1e0aeaf83b6" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="dead-letter-queue-dlq-in-kafka">
+<h1>Dead Letter Queue (DLQ) in Kafka<a class="headerlink" href="#dead-letter-queue-dlq-in-kafka" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="medium-article-link-https-medium-com-p-29418e0ec6cf">
+<h2>Medium Article Link: https://medium.com/p/29418e0ec6cf<a class="headerlink" href="#medium-article-link-https-medium-com-p-29418e0ec6cf" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="shorten-url-using-curl">
-<h2>Shorten URL using curl<a class="headerlink" href="#shorten-url-using-curl" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="to-create-shortened-url">
-<h3>To create shortened URL<a class="headerlink" href="#to-create-shortened-url" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -i https://git.io -F <span class="s2">&quot;url=GITHUB_URL&quot;</span>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+<div class="section" id="implementation">
+<h1>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">kafka</span> <span class="kn">import</span> <span class="n">KafkaProducer</span><span class="p">,</span> <span class="n">KafkaConsumer</span>
+<span class="kn">import</span> <span class="nn">json</span>
+
+<span class="n">bootstrap_servers</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;localhost:9092&#39;</span><span class="p">]</span>
+<span class="n">primary_topic</span> <span class="o">=</span> <span class="s1">&#39;primary-topic-name&#39;</span>
+<span class="n">dlq_topic</span> <span class="o">=</span> <span class="s1">&#39;dlq-topic-name&#39;</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="to-create-shortened-url-with-custom-text">
-<h3>To create shortened URL with custom text<a class="headerlink" href="#to-create-shortened-url-with-custom-text" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -i https://git.io -F <span class="s2">&quot;url=GITHUB_URL&quot;</span> -F <span class="s2">&quot;code=CUSTOM_TEXT&quot;</span>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dlq_producer</span> <span class="o">=</span> <span class="n">KafkaProducer</span><span class="p">(</span>
+    <span class="n">bootstrap_servers</span><span class="o">=</span><span class="n">bootstrap_servers</span><span class="p">,</span>
+    <span class="n">value_serializer</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">),</span>
+    <span class="n">acks</span><span class="o">=</span><span class="s1">&#39;all&#39;</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="to-retrieve-full-url">
-<h3>To retrieve full URL<a class="headerlink" href="#to-retrieve-full-url" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl -i https://git.io/SHORTENED-URL
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">consumer</span> <span class="o">=</span> <span class="n">KafkaConsumer</span><span class="p">(</span>
+    <span class="n">primary_topic</span><span class="p">,</span>
+    <span class="n">bootstrap_servers</span><span class="o">=</span><span class="n">bootstrap_servers</span><span class="p">,</span>
+    <span class="n">auto_offset_reset</span><span class="o">=</span><span class="s1">&#39;latest&#39;</span><span class="p">,</span>
+    <span class="n">enable_auto_commit</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">value_deserializer</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
-<div class="section" id="shorten-url-using-python">
-<h2>Shorten URL using Python<a class="headerlink" href="#shorten-url-using-python" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id1">
-<h3>To create shortened URL<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
-
-<span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://git.io/&#39;</span>
-
-<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;url&#39;</span><span class="p">:</span> <span class="n">GITHUB</span><span class="o">-</span><span class="n">URL</span><span class="p">,</span> 
-        <span class="s1">&#39;code&#39;</span><span class="p">:</span> <span class="n">CUSTOM</span><span class="o">-</span><span class="n">TEXT</span><span class="p">}</span>
-
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;Location&#39;</span><span class="p">))</span>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="n">consumer</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Received:</span><span class="se">\n</span><span class="s1">Partition: </span><span class="si">{</span><span class="n">msg</span><span class="o">.</span><span class="n">partition</span><span class="si">}</span><span class="s1"> </span><span class="se">\t</span><span class="s1">Offset: </span><span class="si">{</span><span class="n">msg</span><span class="o">.</span><span class="n">offset</span><span class="si">}</span><span class="se">\t</span><span class="s1">Value: </span><span class="si">{</span><span class="n">msg</span><span class="o">.</span><span class="n">value</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+    
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Data Received:&#39;</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+            
+    <span class="k">except</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Value </span><span class="si">{</span><span class="n">msg</span><span class="o">.</span><span class="n">value</span><span class="si">}</span><span class="s1"> not in JSON format&#39;</span><span class="p">)</span>
+        <span class="n">dlq_producer</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">dlq_topic</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">msg</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Message sent to DLQ Topic&#39;</span><span class="p">)</span>
+        
 </pre></div>
 </div>
 </div>
-<div class="section" id="id2">
-<h3>To retrieve full URL<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Received:
+Partition: 0 	Offset: 542	Value: {&quot;test&quot;:&quot;1&quot;}
+Data Received: {&#39;test&#39;: &#39;1&#39;}
 
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="s1">&#39;https://git.io/SHORTENED-URL&#39;</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;Location&#39;</span><span class="p">))</span>
+Received:
+Partition: 0 	Offset: 543	Value: test
+Value test not in JSON format
+Message sent to DLQ Topic
 </pre></div>
 </div>
 </div>
+</div>
+<div class="section" id="reference">
+<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://kafka-python.readthedocs.io/en/master/install.html">https://kafka-python.readthedocs.io/en/master/install.html</a></p>
 </div>
 </div>
 
@@ -396,8 +408,7 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="Introduction%20to%20Logging%20in%20Python.html" title="previous page">Introduction to Logging in Python</a>
-    <a class='right-next' id="next-link" href="Scraping%20Tabular%20Data%20with%20Pandas.html" title="next page">Scraping Tabular Data with Pandas</a>
+    <a class='left-prev' id="prev-link" href="Building%20Python%20APIs%20with%20Flask%2C%20Flask-RESTPlus%20and%20Swagger%20UI.html" title="previous page">Building Python APIs with Flask, Flask-RESTPlus and Swagger UI</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
