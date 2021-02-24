@@ -194,7 +194,7 @@
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>7 PyTorch functions for your next Machine Learning project</title><link>https://jimit105.github.io/medium-articles/7 PyTorch functions for your next Machine Learning project.html</link><description>&lt;div class="section" id="pytorch-functions-for-your-next-machine-learning-project"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Wed, 24 Feb 2021 00:00:00 </pubDate></item><item><title>7 PyTorch functions for your next Machine Learning project</title><link>https://jimit105.github.io/medium-articles/7 PyTorch functions for your next Machine Learning project.html</link><description>&lt;div class="section" id="pytorch-functions-for-your-next-machine-learning-project"&gt;
  
 &lt;div class="section" id="medium-article-link-https-medium-com-p-356de5f31a1e"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="https://medium.com/p/356de5f31a1e"&gt;https://medium.com/p/356de5f31a1e&lt;/a&gt;&lt;/h2&gt;
@@ -475,7 +475,7 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>Building Python APIs with Flask, Flask-RESTPlus and Swagger UI</title><link>https://jimit105.github.io/medium-articles/Building Python APIs with Flask, Flask-RESTPlus and Swagger UI.html</link><description>&lt;div class="section" id="building-python-apis-with-flask-flask-restplus-and-swagger-ui"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Wed, 24 Feb 2021 00:00:00 </pubDate></item><item><title>Building Python APIs with Flask, Flask-RESTPlus and Swagger UI</title><link>https://jimit105.github.io/medium-articles/Building Python APIs with Flask, Flask-RESTPlus and Swagger UI.html</link><description>&lt;div class="section" id="building-python-apis-with-flask-flask-restplus-and-swagger-ui"&gt;
  
 &lt;div class="section" id="medium-article-link-https-medium-com-p-7461b3a9a2c8"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="https://medium.com/p/7461b3a9a2c8"&gt;https://medium.com/p/7461b3a9a2c8&lt;/a&gt;&lt;/h2&gt;
@@ -597,7 +597,7 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>Creating RESTful APIs using Flask and Python</title><link>https://jimit105.github.io/medium-articles/Creating RESTful APIs using Flask and Python.html</link><description>&lt;div class="section" id="creating-restful-apis-using-flask-and-python"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Wed, 24 Feb 2021 00:00:00 </pubDate></item><item><title>Creating RESTful APIs using Flask and Python</title><link>https://jimit105.github.io/medium-articles/Creating RESTful APIs using Flask and Python.html</link><description>&lt;div class="section" id="creating-restful-apis-using-flask-and-python"&gt;
  
 &lt;div class="section" id="medium-article-link-https-medium-com-p-655bad51b24"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="https://medium.com/p/655bad51b24"&gt;https://medium.com/p/655bad51b24&lt;/a&gt;&lt;/h2&gt;
@@ -688,7 +688,7 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
 &lt;div class="section" id="blueprints"&gt;
 &lt;h2&gt;Blueprints&lt;/h2&gt;
 &lt;div class="section" id="home-py"&gt;
-&lt;h3&gt;home.py&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="reference external" href="http://home.py"&gt;home.py&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;flask&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Blueprint&lt;/span&gt;
 
 &lt;span class="n"&gt;home_bp&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Blueprint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'home'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
@@ -700,7 +700,7 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="contact-py"&gt;
-&lt;h3&gt;contact.py&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="reference external" href="http://contact.py"&gt;contact.py&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;flask&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Blueprint&lt;/span&gt;
 
 &lt;span class="n"&gt;contact_bp&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Blueprint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'contact'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
@@ -712,7 +712,7 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="app-py"&gt;
-&lt;h3&gt;app.py&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="reference external" href="http://app.py"&gt;app.py&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;flask&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Flask&lt;/span&gt;
 
 &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;home&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;home_bp&lt;/span&gt;
@@ -757,7 +757,7 @@ The default dimension is 0 i.e. &lt;code class="docutils literal notranslate"&gt
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>Dead Letter Queue (DLQ) in Kafka</title><link>https://jimit105.github.io/medium-articles/Dead Letter Queue (DLQ) in Kafka.html</link><description>&lt;div class="section" id="dead-letter-queue-dlq-in-kafka"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Wed, 24 Feb 2021 00:00:00 </pubDate></item><item><title>Dead Letter Queue (DLQ) in Kafka</title><link>https://jimit105.github.io/medium-articles/Dead Letter Queue (DLQ) in Kafka.html</link><description>&lt;div class="section" id="dead-letter-queue-dlq-in-kafka"&gt;
  
 &lt;div class="section" id="medium-article-link-https-medium-com-p-29418e0ec6cf"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="https://medium.com/p/29418e0ec6cf"&gt;https://medium.com/p/29418e0ec6cf&lt;/a&gt;&lt;/h2&gt;
@@ -865,7 +865,7 @@ Message sent to DLQ Topic
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>GitHub URL Shortener</title><link>https://jimit105.github.io/medium-articles/GitHub URL Shortener.html</link><description>&lt;div class="section" id="github-url-shortener"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Wed, 24 Feb 2021 00:00:00 </pubDate></item><item><title>GitHub URL Shortener</title><link>https://jimit105.github.io/medium-articles/GitHub URL Shortener.html</link><description>&lt;div class="section" id="github-url-shortener"&gt;
  
 &lt;div class="section" id="medium-article-link-http-medium-com-p-f1e0aeaf83b6"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="http://medium.com/p/f1e0aeaf83b6"&gt;http://medium.com/p/f1e0aeaf83b6&lt;/a&gt;&lt;/h2&gt;
@@ -938,7 +938,7 @@ Message sent to DLQ Topic
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>Introduction to Logging in Python</title><link>https://jimit105.github.io/medium-articles/Introduction to Logging in Python.html</link><description>&lt;div class="section" id="introduction-to-logging-in-python"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Wed, 24 Feb 2021 00:00:00 </pubDate></item><item><title>Introduction to Logging in Python</title><link>https://jimit105.github.io/medium-articles/Introduction to Logging in Python.html</link><description>&lt;div class="section" id="introduction-to-logging-in-python"&gt;
  
 &lt;div class="section" id="medium-link-https-medium-com-p-a1415d0b8141"&gt;
 &lt;h2&gt;Medium Link: &lt;a class="reference external" href="https://medium.com/p/a1415d0b8141"&gt;https://medium.com/p/a1415d0b8141&lt;/a&gt;&lt;/h2&gt;
@@ -1123,7 +1123,159 @@ Message sent to DLQ Topic
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item><item><title>Scraping Tabular Data with Pandas</title><link>https://jimit105.github.io/medium-articles/Scraping Tabular Data with Pandas.html</link><description>&lt;div class="section" id="scraping-tabular-data-with-pandas"&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Wed, 24 Feb 2021 00:00:00 </pubDate></item><item><title>Monitoring Python Applications with Elastic APM</title><link>https://jimit105.github.io/medium-articles/Monitoring Python Applications with Elastic APM.html</link><description>&lt;div class="section" id="monitoring-python-applications-with-elastic-apm"&gt;
+ 
+&lt;div class="section" id="medium-link-https-medium-com-p-33237a39d7b6"&gt;
+&lt;h2&gt;Medium Link: &lt;a class="reference external" href="https://medium.com/p/33237a39d7b6"&gt;https://medium.com/p/33237a39d7b6&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="monitoring-flask-flask-restplus-applications"&gt;
+&lt;h2&gt;Monitoring Flask / Flask-RESTPlus Applications&lt;/h2&gt;
+&lt;div class="section" id="installation"&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;div class="highlight-bash notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;pip install elastic-apm&lt;span class="o"&gt;[&lt;/span&gt;flask&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="implementation"&gt;
+&lt;h3&gt;Implementation&lt;/h3&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;flask&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Flask&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;elasticapm.contrib.flask&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;ElasticAPM&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;elasticapm&lt;/span&gt;
+
+&lt;span class="n"&gt;server_url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'http://localhost:8200'&lt;/span&gt;
+&lt;span class="n"&gt;service_name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'DemoFlask'&lt;/span&gt;
+&lt;span class="n"&gt;environment&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'dev'&lt;/span&gt;
+
+&lt;span class="n"&gt;app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Flask&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="vm"&gt;__name__&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;apm&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ElasticAPM&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;server_url&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;server_url&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;service_name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;service_name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;environment&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;environment&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="nd"&gt;@app&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;before_request&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;apm_log&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="n"&gt;elasticapm&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;label&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;platform&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'DemoPlatform'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                     &lt;span class="n"&gt;application&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'DemoApplication'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="nd"&gt;@app&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;route&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'/hello-world/'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;helloWorld&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+	&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;"Hello World"&lt;/span&gt;
+
+
+&lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;run&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="monitoring-fastapi-applications"&gt;
+&lt;h2&gt;Monitoring FastAPI Applications&lt;/h2&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;div class="highlight-bash notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;pip install elastic-apm
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h3&gt;Implementation&lt;/h3&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;uvicorn&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;fastapi&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;FastAPI&lt;/span&gt;
+
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;elasticapm.contrib.starlette&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;make_apm_client&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ElasticAPM&lt;/span&gt;
+
+
+&lt;span class="n"&gt;apm_config&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+	&lt;span class="s1"&gt;'SERVICE_NAME'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'DemoFastAPI'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="s1"&gt;'SERVER_URL'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'http://localhost:8200'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="s1"&gt;'ENVIRONMENT'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'dev'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="s1"&gt;'GLOBAL_LABELS'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'platform=DemoPlatform, application=DemoApplication'&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="n"&gt;apm&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;make_apm_client&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;apm_config&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;FastAPI&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_middleware&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ElasticAPM&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;client&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;apm&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="nd"&gt;@app&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'/hello-world/'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hello_world&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+	&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;"Hello World"&lt;/span&gt;
+
+
+&lt;span class="n"&gt;uvicorn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="monitoring-python-applications"&gt;
+&lt;h2&gt;Monitoring Python Applications&lt;/h2&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;div class="highlight-bash notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;pip install elastic-apm
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id4"&gt;
+&lt;h3&gt;Implementation&lt;/h3&gt;
+&lt;div class="highlight-python notranslate"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span/&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;time&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;apscheduler.schedulers.background&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;BackgroundScheduler&lt;/span&gt;
+
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;elasticapm&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Client&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;elasticapm&lt;/span&gt;
+
+&lt;span class="n"&gt;client&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Client&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s1"&gt;'SERVICE_NAME'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'DemoPython'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+     &lt;span class="s1"&gt;'SERVER_URL'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'http://localhost:8200'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+     &lt;span class="s1"&gt;'ENVIRONMENT'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'dev'&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;elasticapm&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;instrumentation&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;control&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;instrument&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hello_world&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+	&lt;span class="n"&gt;client&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;begin_transaction&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'schedule'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+	&lt;span class="n"&gt;elasticapm&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;label&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;platform&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'DemoPlatform'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;application&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'DemoApplication'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+	&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"Hello World"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+	&lt;span class="n"&gt;client&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;end_transaction&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'demo-transaction'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'success'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;"__main__"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+	&lt;span class="n"&gt;scheduler&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;BackgroundScheduler&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+	&lt;span class="n"&gt;scheduler&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_job&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hello_world&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'interval'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;seconds&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+	&lt;span class="n"&gt;scheduler&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;start&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+	&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Started scheduler..'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+	&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Press Ctrl+C to exit'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+	&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+		&lt;span class="c1"&gt;# Necessary to simulate application activity (which keeps the main thread alive).&lt;/span&gt;
+		&lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+			&lt;span class="n"&gt;time&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sleep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+	&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="ne"&gt;KeyboardInterrupt&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ne"&gt;SystemExit&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+		&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Shutting down scheduler'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+		&lt;span class="n"&gt;scheduler&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shutdown&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;script type="text/x-thebe-config"&gt;
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "jimit105/medium-articles",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    &lt;/script&gt;
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Wed, 24 Feb 2021 00:00:00 </pubDate></item><item><title>Scraping Tabular Data with Pandas</title><link>https://jimit105.github.io/medium-articles/Scraping Tabular Data with Pandas.html</link><description>&lt;div class="section" id="scraping-tabular-data-with-pandas"&gt;
  
 &lt;div class="section" id="medium-article-link-https-medium-com-p-10cf2a133cbf"&gt;
 &lt;h2&gt;Medium Article Link: &lt;a class="reference external" href="https://medium.com/p/10cf2a133cbf"&gt;https://medium.com/p/10cf2a133cbf&lt;/a&gt;&lt;/h2&gt;
@@ -1702,4 +1854,4 @@ Message sent to DLQ Topic
         predefinedOutput: true
     }
     &lt;/script&gt;
-    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Thu, 28 Jan 2021 00:00:00 </pubDate></item></channel></rss>
+    &lt;script&gt;kernelName = 'python3'&lt;/script&gt;</description><pubDate>Wed, 24 Feb 2021 00:00:00 </pubDate></item></channel></rss>

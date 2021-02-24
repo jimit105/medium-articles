@@ -56,8 +56,7 @@
     <link rel="shortcut icon" href="_static/favicon_py.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Building Python APIs with Flask, Flask-RESTPlus and Swagger UI" href="Building%20Python%20APIs%20with%20Flask%2C%20Flask-RESTPlus%20and%20Swagger%20UI.html" />
-    <link rel="prev" title="5 Ways to Merge Dictionaries in Python" href="5%20Ways%20to%20Merge%20Dictionaries%20in%20Python.html" />
+    <link rel="prev" title="Building Python APIs with Flask, Flask-RESTPlus and Swagger UI" href="Building%20Python%20APIs%20with%20Flask%2C%20Flask-RESTPlus%20and%20Swagger%20UI.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -103,13 +102,13 @@
 </ul>
 <ul class="current nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="Introduction%20to%20Logging%20in%20Python.html">
-   Introduction to Logging in Python
+  <a class="reference internal" href="GitHub%20URL%20Shortener.html">
+   GitHub URL Shortener
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="GitHub%20URL%20Shortener.html">
-   GitHub URL Shortener
+  <a class="reference internal" href="Introduction%20to%20Logging%20in%20Python.html">
+   Introduction to Logging in Python
   </a>
  </li>
  <li class="toctree-l1">
@@ -118,18 +117,23 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="5%20Ways%20to%20Merge%20Dictionaries%20in%20Python.html">
+   5 Ways to Merge Dictionaries in Python
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Dead%20Letter%20Queue%20%28DLQ%29%20in%C2%A0Kafka.html">
+   Dead Letter Queue (DLQ) in Kafka
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="7%20PyTorch%20functions%20for%20your%20next%20Machine%20Learning%20project.html">
    7 PyTorch functions for your next Machine Learning project
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="5%20Ways%20to%20Merge%20Dictionaries%20in%20Python.html">
-   5 Ways to Merge Dictionaries in Python
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Creating RESTful APIs using Flask and Python
+  <a class="reference internal" href="Monitoring%20Python%20Applications%20with%20Elastic%20APM.html">
+   Monitoring Python Applications with Elastic APM
   </a>
  </li>
  <li class="toctree-l1">
@@ -137,9 +141,9 @@
    Building Python APIs with Flask, Flask-RESTPlus and Swagger UI
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Dead%20Letter%20Queue%20%28DLQ%29%20in%C2%A0Kafka.html">
-   Dead Letter Queue (DLQ) in Kafka
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Creating RESTful APIs using Flask and Python
   </a>
  </li>
 </ul>
@@ -417,7 +421,7 @@
 <div class="section" id="blueprints">
 <h2>Blueprints<a class="headerlink" href="#blueprints" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="home-py">
-<h3>home.py<a class="headerlink" href="#home-py" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="http://home.py">home.py</a><a class="headerlink" href="#home-py" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Blueprint</span>
 
 <span class="n">home_bp</span> <span class="o">=</span> <span class="n">Blueprint</span><span class="p">(</span><span class="s1">&#39;home&#39;</span><span class="p">,</span> <span class="vm">__name__</span><span class="p">)</span>
@@ -429,7 +433,7 @@
 </div>
 </div>
 <div class="section" id="contact-py">
-<h3>contact.py<a class="headerlink" href="#contact-py" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="http://contact.py">contact.py</a><a class="headerlink" href="#contact-py" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Blueprint</span>
 
 <span class="n">contact_bp</span> <span class="o">=</span> <span class="n">Blueprint</span><span class="p">(</span><span class="s1">&#39;contact&#39;</span><span class="p">,</span> <span class="vm">__name__</span><span class="p">)</span>
@@ -441,7 +445,7 @@
 </div>
 </div>
 <div class="section" id="app-py">
-<h3>app.py<a class="headerlink" href="#app-py" title="Permalink to this headline">¶</a></h3>
+<h3><a class="reference external" href="http://app.py">app.py</a><a class="headerlink" href="#app-py" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
 
 <span class="kn">from</span> <span class="nn">home</span> <span class="kn">import</span> <span class="n">home_bp</span>
@@ -496,8 +500,7 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="5%20Ways%20to%20Merge%20Dictionaries%20in%20Python.html" title="previous page">5 Ways to Merge Dictionaries in Python</a>
-    <a class='right-next' id="next-link" href="Building%20Python%20APIs%20with%20Flask%2C%20Flask-RESTPlus%20and%20Swagger%20UI.html" title="next page">Building Python APIs with Flask, Flask-RESTPlus and Swagger UI</a>
+    <a class='left-prev' id="prev-link" href="Building%20Python%20APIs%20with%20Flask%2C%20Flask-RESTPlus%20and%20Swagger%20UI.html" title="previous page">Building Python APIs with Flask, Flask-RESTPlus and Swagger UI</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
