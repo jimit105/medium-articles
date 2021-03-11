@@ -1,4 +1,4 @@
-# Medium Articles by [Jimit Dholakia](https://www.linkedin.com/in/jimit105/)
+# [Medium Articles](https://jimit105.medium.com/) by [Jimit Dholakia](https://www.linkedin.com/in/jimit105/)
 
 <p><strong>Subscribe to my articles</strong></p>
 <form style="padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=JimitDholakiaMedium', 'popupwindow', 'scrollbars=yes');return true">
