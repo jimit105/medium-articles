@@ -28,7 +28,7 @@ jobs:
         
     - name: Build the book
       run: |
-        jupyter-book build medium-articles/.
+        jupyter-book build .
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
