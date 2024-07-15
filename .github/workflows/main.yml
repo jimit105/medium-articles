@@ -24,7 +24,7 @@ jobs:
         
     - name: Generate Table of Contents
       run: |
-        jupyter-book toc .
+        jupyter-book toc from-project .
         
     - name: Build the book
       run: |
