@@ -24,7 +24,7 @@ jobs:
         
     - name: Generate Table of Contents
       run: |
-        jupyter-book toc from-project .
+        jupyter-book toc from-project . --extension .md --extension .ipynb
         
     - name: Build the book
       run: |
