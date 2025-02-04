@@ -1,4 +1,4 @@
 # Medium Articles
 
-Medium Profile: <https://medium.com/@jimit105>  
-GitHub Page: <https://jimit105.github.io/medium-articles/>
+- Medium Profile: <https://jimit105.medium.com/>  
+- Subscribe to my newsletter: <https://jimit105.medium.com/subscribe>
